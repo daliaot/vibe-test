@@ -1,0 +1,31 @@
+# Settings for the Substack agent. Edit freely: plain text, one setting per line.
+
+# Who the briefing is for. The agent uses this to write the "why it matters" lines.
+reader_name = "Dalia"
+about_reader = """
+Dalia wants to grow her general knowledge, loves historical facts and stories,
+and is building a habit of reading regularly. Short, satisfying reads that teach
+something concrete suit her best.
+"""
+
+# What to look for on Substack.
+topics = [
+  "historical facts and stories",
+  "self help",
+  "key business stories",
+]
+
+# How far back to look, in days.
+days_back = 7
+
+# How many items go in the briefing.
+max_items = 10
+
+# How many posts to write up and check. Extra ones replace items that fail the check.
+candidates_to_check = 16
+
+# Which Claude model does the searching, picking, writing and checking.
+model = "claude-opus-5-5"
+
+# Where briefings are saved.
+output_folder = "briefings"
